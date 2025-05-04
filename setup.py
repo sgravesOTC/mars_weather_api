@@ -1,3 +1,6 @@
+# This is the setup script for the mars_weather_api package.
+# It uses setuptools to define the package metadata and dependencies.
+
 from setuptools import setup, find_packages
 
 setup(
