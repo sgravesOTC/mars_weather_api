@@ -6,10 +6,12 @@ This is a Python wrapper for NASA's InSight Mars Weather Service API. It allows 
 
 To use the `mars_weather_api`, first import the library and initialize it:
 
+```python
 import mars_weather_api
 from mars_weather_api import mars_weather_api
 api = mars_weather_api.MarsWeatherAPI("your_nasa_api_key")
 api.print_week()
+```
 
 ## Installation
 
