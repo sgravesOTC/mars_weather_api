@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: mars_weather_api
+Version: 0.1.0
+Summary: This is a wrapper for the NASA InSight API.
+Home-page: https://github.com/sgravesOTC/mars_weather_api.git
+Author: Shanna Graves
+Author-email: "Shanna Graves" <sgravescreations@gmail.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+Dynamic: license-file
+Dynamic: requires-dist
+
+# mars_weather_api
+
+This is a wrapper for the NASA InSight API. 
+
+## Installation
+
+```shell
+$ python -m pip install mars_weather_api
+```
