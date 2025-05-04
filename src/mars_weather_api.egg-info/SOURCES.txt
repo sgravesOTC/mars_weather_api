@@ -4,8 +4,8 @@ README.md
 pyproject.toml
 setup.cfg
 setup.py
-src/imppkg/__init__.py
-src/imppkg/mars_weater_api.py
+src/mars_weather_api/__init__.py
+src/mars_weather_api/mars_weather_api.py
 src/mars_weather_api.egg-info/PKG-INFO
 src/mars_weather_api.egg-info/SOURCES.txt
 src/mars_weather_api.egg-info/dependency_links.txt
