@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: mars_weather_api
-Version: 0.1.0
+Version: 0.1.6
 Summary: This is a wrapper for the NASA InSight API.
 Home-page: https://github.com/sgravesOTC/mars_weather_api.git
 Author: Shanna Graves

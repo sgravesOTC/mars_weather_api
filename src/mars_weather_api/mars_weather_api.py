@@ -65,7 +65,8 @@ class MarsWeatherAPI():
                 temps[sol_key] = self.data[sol_key]['AT']
                 date = datetime.strptime(self.data[sol_key]['First_UTC'], '%Y-%m-%dT%H:%M:%SZ')
                 formatted_date = date.strftime('%b. %d, %Y')
-                temps[sol_key][date] = formatted_date
+                temps[sol_key]['e-date'] = formatted_date
+                temps[sol_key]['sol'] = sol_key
         return temps
 
     def get_day(self, day:int = 0):
