@@ -68,6 +68,17 @@ class MarsWeatherAPI():
                 temps[sol_key]['e-date'] = formatted_date
                 temps[sol_key]['sol'] = sol_key
         return temps
+    
+    def get_atmos_only(self):
+        atmos = {}
+        for sol_key in self.data['sol_keys']:
+            if 'PRE' in self.data[sol_key]:
+                atmos[sol_key] = self.data[sol_key]['PRE']
+                date = datetime.strptime(self.data[sol_key]['First_UTC'], '%Y-%m-%dT%H:%M:%SZ')
+                formatted_date = date.strftime('%b. %d, %Y')
+                atmos[sol_key]['e-date'] = formatted_date
+                atmos[sol_key]['sol'] = sol_key
+        return atmos
 
     def get_day(self, day:int = 0):
         days = []

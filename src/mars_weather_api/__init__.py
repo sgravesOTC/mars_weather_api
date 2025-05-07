@@ -2,4 +2,4 @@
 from mars_weather_api import *
 
 # Optional: Set version
-__version__ = '0.1.0'  # Update with your version
+__version__ = '0.1.9'  # Update with your version
